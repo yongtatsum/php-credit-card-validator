@@ -1,5 +1,5 @@
 {
-    "name": "inacho/php-credit-card-validator",
+    "name": "yongtatsum/php-credit-card-validator",
     "type": "library",
     "description": "Validates popular debit and credit cards numbers against regular expressions and Luhn algorithm. Also validates the CVC and the expiration date",
     "keywords": ["creditcard", "creditcards", "debit", "credit", "card", "cards", "validator", "cvc", "laravel"],
@@ -16,12 +16,6 @@
         "inacho/php-credit-card-validator": "dev-master" // or specify a specific version or branch
 
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/yongtatsum/php-credit-card-validator"
-        }
-    ],
     "require-dev": {
         "phpunit/phpunit": "4.7.*"
     },
